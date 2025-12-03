@@ -1,0 +1,15 @@
+name: rdkit-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - rdkit
+  - pandas
+  - numpy
+  - scikit-learn
+  - umap-learn
+  - hdbscan
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyterlab
