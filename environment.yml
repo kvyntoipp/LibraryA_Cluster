@@ -1,15 +1,16 @@
-name: rdkit-env
+name: binder-env
 channels:
-  - conda-forge
+- conda-forge
 dependencies:
-  - python=3.10
-  - rdkit
-  - pandas
-  - numpy
-  - scikit-learn
-  - umap-learn
-  - hdbscan
-  - matplotlib
-  - seaborn
-  - plotly
-  - jupyterlab
+- python=3.9
+- rdkit
+- pandas
+- numpy
+- scikit-learn
+- umap-learn
+- matplotlib
+- notebook
+- ipykernel
+- pip
+- pip:
+- jupyterlab
